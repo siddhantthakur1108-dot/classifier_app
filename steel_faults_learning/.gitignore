@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+.streamlit/secrets.toml
+# Saved models, test CSV, and reference results are required project evidence.
+# Do not ignore model/ or test_data.csv.

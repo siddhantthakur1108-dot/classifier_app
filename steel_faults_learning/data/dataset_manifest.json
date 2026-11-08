@@ -1,0 +1,34 @@
+{
+  "dataset": "Steel Plates Faults",
+  "source_url": "https://archive.ics.uci.edu/dataset/198/steel+plates+faults",
+  "download_url": "https://archive.ics.uci.edu/static/public/198/steel+plates+faults.zip",
+  "doi": "10.24432/C5J88N",
+  "attribution": "Buscema, M., Terzi, S., & Tastle, W. (2010). Steel Plates Faults. UCI Machine Learning Repository.",
+  "license": "CC BY 4.0",
+  "rows": 1941,
+  "input_features": 27,
+  "classes": [
+    "Bumps",
+    "Dirtiness",
+    "K_Scatch",
+    "Other_Faults",
+    "Pastry",
+    "Stains",
+    "Z_Scratch"
+  ],
+  "class_counts": {
+    "Bumps": 402,
+    "Dirtiness": 55,
+    "K_Scatch": 391,
+    "Other_Faults": 673,
+    "Pastry": 158,
+    "Stains": 72,
+    "Z_Scratch": 190
+  },
+  "missing_cells": 0,
+  "duplicate_full_rows": 0,
+  "duplicate_feature_rows": 0,
+  "archive_sha256": "cb8eb9859198b63f053e443513036b401746fa517ef58bd17c846c6741c93919",
+  "csv_sha256": "0b14249d6700b05c4700127c6927e48db766baa5afcf069c81e5213e39a0520b",
+  "transformation": "Convert seven mutually exclusive indicators to target using idxmax; remove all seven indicator columns from X."
+}

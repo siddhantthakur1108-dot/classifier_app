@@ -1,0 +1,68 @@
+ML ASSIGNMENT 2 - FINAL PDF CONTENT OUTLINE
+
+STATUS: INCOMPLETE CHECKLIST. THIS IS NOT A FINAL SUBMISSION OR A FINISHED PDF.
+
+The assignment requires one PDF containing the following four items IN THIS ORDER.
+Replace the pending items only with your real work and verified evidence. This
+reference was executed outside BITS Virtual Lab; it supplies no lab screenshot,
+GitHub repository URL, or live Streamlit URL for your submission.
+
+1. GITHUB REPOSITORY LINK
+
+   PENDING: paste your actual, accessible repository URL as a clickable link.
+
+   Confirm the repository contains your complete source, requirements.txt,
+   revised README.md, test_data.csv, all five saved model pipelines under model/,
+   and required preprocessing/support modules. Keep genuine development history.
+
+2. LIVE STREAMLIT APP LINK
+
+   PENDING: paste your actual Streamlit Community Cloud URL as a clickable link.
+
+   Confirm it opens an interactive frontend. Verify CSV test-data upload, model
+   selection, all six metrics, and a confusion matrix or classification report.
+   The uploaded CSV must contain inputs and the target; do not retrain on it.
+   A localhost address, app screenshot, or code repository is not a live app link.
+
+3. ONE BITS VIRTUAL LAB EXECUTION SCREENSHOT
+
+   PENDING: insert ONE genuine screenshot of YOUR assignment execution in BITS
+   Virtual Lab, with the environment and execution/results readable.
+
+   The bundled reference output and a user-supplied execution_context string do
+   not prove a BITS Lab run. Do not fabricate or relabel execution evidence.
+
+4. FULL REVISED GITHUB README CONTENT
+
+   PENDING: include the full README content you have revised for your own work.
+   Keep the assignment's required structure:
+
+   a. Problem statement
+   b. Dataset description (public source, at least 12 inputs and 500 instances)
+   c. GitHub Repository Link
+   d. Models used
+
+   Under d, include one comparison table with the exact six metric columns:
+
+   ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC
+
+   Include each required model: Logistic Regression, Decision Tree, KNN,
+   Naive Bayes (Gaussian or Multinomial), and Support Vector Machine.
+
+   Explain your metric conventions, common evaluation split, preprocessing, and
+   model-selection criterion. Include your own evidence-based observations for
+   all five models and an overall winner. Ensure results match your actual run.
+   Keep dataset attribution and identify any reference material honestly.
+
+FINAL CHECK BEFORE SUBMITTING
+
+[ ] Both real URLs are clickable in the PDF and work for the evaluator.
+[ ] The live app loads and evaluates uploaded test data without retraining.
+[ ] All five models and all six metrics are present.
+[ ] ONE genuine BITS Lab screenshot is included and readable.
+[ ] The full updated README is included after the screenshot.
+[ ] No PENDING item remains in the final PDF.
+[ ] The completed assignment is submitted, not left as a draft.
+
+The supplied assignment states a deadline of 8 November 2026 at 23:59 and does
+not specify a timezone. Follow the course portal's displayed deadline.

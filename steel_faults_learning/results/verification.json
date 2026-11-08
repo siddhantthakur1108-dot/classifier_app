@@ -1,0 +1,137 @@
+{
+  "execution_context": "Reference verification in ChatGPT environment, not BITS Virtual Lab",
+  "streamlit": {
+    "test_method": "Streamlit 1.52 AppTest; uploaded-file values injected at st.file_uploader boundary because AppTest has no native upload setter.",
+    "reference_rows": 389,
+    "reference_features": 27,
+    "checks": [
+      {
+        "name": "default_bundled_data",
+        "passed": true,
+        "detail": "389 rows, 27 features, seven classes, five loaded models; Pipeline.fit disabled throughout evaluation."
+      },
+      {
+        "name": "all_five_comparison",
+        "passed": true,
+        "detail": "Every displayed metric for all five models matches results/comparison.csv rounded to four decimals."
+      },
+      {
+        "name": "select_Logistic Regression",
+        "passed": true,
+        "detail": "All six displayed metrics match saved comparison; seven class supports sum to 389."
+      },
+      {
+        "name": "select_Decision Tree",
+        "passed": true,
+        "detail": "All six displayed metrics match saved comparison; seven class supports sum to 389."
+      },
+      {
+        "name": "select_KNN",
+        "passed": true,
+        "detail": "All six displayed metrics match saved comparison; seven class supports sum to 389."
+      },
+      {
+        "name": "select_Naive Bayes",
+        "passed": true,
+        "detail": "All six displayed metrics match saved comparison; seven class supports sum to 389."
+      },
+      {
+        "name": "select_Support Vector Machine",
+        "passed": true,
+        "detail": "All six displayed metrics match saved comparison; seven class supports sum to 389."
+      },
+      {
+        "name": "normalized_matrix_toggle",
+        "passed": true,
+        "detail": "Normalized matrix rendered without exceptions; all model metrics remain available."
+      },
+      {
+        "name": "errors_only_toggle",
+        "passed": true,
+        "detail": "Exactly 92 SVM errors displayed, all marked incorrect."
+      },
+      {
+        "name": "empty_upload_prompt",
+        "passed": true,
+        "detail": "Prompt shown with no metrics when upload mode has no CSV."
+      },
+      {
+        "name": "valid_uploaded_csv",
+        "passed": true,
+        "detail": "Uploaded-file branch recalculated all five models from the valid 389-row CSV."
+      },
+      {
+        "name": "single_class_auc_unavailable",
+        "passed": true,
+        "detail": "Single-class CSV has 81 rows; every model shows AUC N/A and an explanatory missing-class warning, while other metrics remain available."
+      },
+      {
+        "name": "reject_missing_target",
+        "passed": true,
+        "detail": "Missing required columns: target"
+      },
+      {
+        "name": "reject_nonnumeric_feature",
+        "passed": true,
+        "detail": "Every input feature must contain numeric values."
+      },
+      {
+        "name": "reject_unknown_target",
+        "passed": true,
+        "detail": "Unknown target labels: UnknownFault. Use these labels: Bumps, Dirtiness, K_Scatch, Other_Faults, Pastry, Stains, Z_Scratch"
+      },
+      {
+        "name": "reject_duplicate_header",
+        "passed": true,
+        "detail": "The CSV contains duplicate column names. Each name must be unique."
+      },
+      {
+        "name": "reject_nonfinite_feature",
+        "passed": true,
+        "detail": "Input features must be complete and finite; blanks, NaN, and infinity are invalid."
+      },
+      {
+        "name": "reject_empty_csv",
+        "passed": true,
+        "detail": "The CSV is empty. Upload a file with a header and test rows."
+      },
+      {
+        "name": "reject_oversized_csv",
+        "passed": true,
+        "detail": "Use a test CSV smaller than 5 MB."
+      },
+      {
+        "name": "reject_too_many_rows",
+        "passed": true,
+        "detail": "Upload test data only: the limit is 10,000 rows."
+      }
+    ],
+    "status": "passed",
+    "limitations": [
+      "Browser file-picker transport was not exercised; AppTest 1.52 exposes file_uploader as an unsupported/unknown element. Upload parsing, validation, evaluation, missing-class AUC and UI feedback were exercised by injecting CSV bytes at that widget boundary.",
+      "No live Streamlit Community Cloud deployment or BITS Virtual Lab execution was performed by these tests."
+    ]
+  },
+  "notebook": {
+    "method": "All 12 code cells first executed sequentially by an in-process IPython InteractiveShell. The selected-model figure cell was then amended for portable explicit PNG display and re-executed once using its inputs recalculated from the saved pipeline and held-out CSV. stdout, stderr, and rich outputs were captured through IPython capture_output.",
+    "python_version": "3.12.14",
+    "total_cells": 27,
+    "code_cells": 12,
+    "executed_code_cells": 12,
+    "error_output_count": 0,
+    "nbformat_valid": true,
+    "standard_jupyter_kernel_transport_tested": false,
+    "transport_caveat": "Standard nbclient/Jupyter ZMQ kernel transport could not initialize because of the environment's local socket interface restriction. The notebook's actual Python execution was verified through IPython in one process instead; no permission escalation or network retry was used.",
+    "notebook_sha256": "8a7c82511f3571ce7207b2b25f317e0eea17dcfaa7802080e72a6fdc70f5897d"
+  },
+  "pdf": {
+    "pages": 8,
+    "all_pages_visually_reviewed": true
+  },
+  "external_status": {
+    "github_repository_created": false,
+    "streamlit_community_cloud_deployed": false,
+    "bits_lab_execution_performed": false,
+    "genuine_lab_screenshot_available": false
+  }
+}
